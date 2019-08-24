@@ -1,0 +1,21 @@
+.example-container {
+    height: 91vh;
+    background-color: white;
+  }
+  mat-drawer {
+    width: 35vh;
+    font-family: Roboto,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin: 0;
+    transition: background-color .2s;
+   } 
+   .nav-select-text-color{
+    color: #1976d2;
+    text-shadow: 0 0 5px #fff;
+    background-color: white;
+   }
+
+   A {
+     text-decoration: none;
+   }

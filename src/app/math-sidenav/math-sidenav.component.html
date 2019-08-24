@@ -1,0 +1,8 @@
+<app-math-toolbar [draw-ref]="drawer" ></app-math-toolbar>
+<mat-drawer-container #sidenav  (backdropClick)="close('backdrop')"  class="example-container" hasBackdrop="false" disableClose >
+    <mat-drawer [opened]="isopened" #drawer mode="Push"> 
+        <mat-list #matlist role="navigation" > 
+            <a mat-list-item [ngClass]="{'nav-select-text-color': clickedItem == i}"   (click)="loadModule(i)" matRipple *ngFor="let item of items; index as i;" href="#" >{{item.name}}</a>
+           </mat-list>
+    </mat-drawer>
+  </mat-drawer-container>
