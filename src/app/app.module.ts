@@ -14,7 +14,7 @@ import {MatButtonModule} from '@angular/material/button';
  import {MatListModule} from '@angular/material/list';
  import {MatRippleModule} from '@angular/material/core';
 import { HyphenPipe } from './hyphen.pipe';
-
+ 
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,7 +33,7 @@ import { HyphenPipe } from './hyphen.pipe';
     OverlayModule,
     MatListModule,
     MatRippleModule,
-    BrowserAnimationsModule
+     BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

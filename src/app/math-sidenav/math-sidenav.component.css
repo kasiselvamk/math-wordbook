@@ -2,13 +2,16 @@
     height: 91vh;
     background-color: white;
   }
+  
   mat-drawer {
-    width: 35vh;
-    font-family: Roboto,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+     font-family: Roboto,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
     font-size: 1.4rem;
     font-weight: 400;
     margin: 0;
     transition: background-color .2s;
+     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
    } 
    .nav-select-text-color{
     color: #1976d2;
@@ -19,3 +22,10 @@
    A {
      text-decoration: none;
    }
+   .content-container{
+    min-height: 450px;
+    padding: 20px 2rem 1rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    }
