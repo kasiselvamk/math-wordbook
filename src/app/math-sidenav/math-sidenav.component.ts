@@ -15,9 +15,7 @@ export class MathSidenavComponent implements OnInit {
   items: any;
   clickedItem:Number;
   isopened:Boolean;
-  push:any;
   constructor(public platform: Platform) {
-    this.push = "push";
      this.items = AppContent.APP_NAV_MENU;
      this.clickedItem = 0;
      if ( !(platform.ANDROID || platform.IOS) ) {
