@@ -15,13 +15,15 @@ export class MathSidenavComponent implements OnInit {
   items: any;
   clickedItem:Number;
   isopened:Boolean;
+  mode:String;
+  hasbackdrop:Boolean;
   constructor(public platform: Platform) {
      this.items = AppContent.APP_NAV_MENU;
      this.clickedItem = 0;
      if ( !(platform.ANDROID || platform.IOS) ) {
-      this.isopened = true;
+      this.isopened = true; this.mode = "push" ; this.hasbackdrop = false;
      } else {
-      this.isopened = false;
+      this.isopened = false; this.mode = "over" ; this.hasbackdrop = true;
      }
 
    }
