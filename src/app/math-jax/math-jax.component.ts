@@ -11,8 +11,8 @@ export class MathJaxComponent implements OnInit {
   constructor() {
   }
 
-  ngAfterContentInit(){
-    console.log("ngAfterContentInit....")
+  ngAfterViewInit(){
+    console.log("ngAfterViewInit....")
     this.doRender();
   }
   doRender() {
