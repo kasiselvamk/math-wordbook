@@ -9,6 +9,7 @@ const windowRef=(<any>window);
 export class MathJaxComponent implements OnInit {
   transfermedcontent = "0 + a = 0 & $$\\frac{a}{0}$$ is not defined."
   constructor() { 
+    console.log("triggered....")
     windowRef.MathJax.Hub.Queue(["Typeset",windowRef.MathJax.Hub], 'mathcontent');
   }
 
