@@ -14,14 +14,14 @@ import {MatButtonModule} from '@angular/material/button';
  import {MatListModule} from '@angular/material/list';
  import {MatRippleModule} from '@angular/material/core';
 import { HyphenPipe } from './hyphen.pipe';
- 
+  
 @NgModule({
   declarations: [
     AppComponent,
     MathToolbarComponent,
     MathSidenavComponent,
     HyphenPipe,
-  ],
+   ],
   imports: [
     BrowserModule,
     AppRoutingModule,

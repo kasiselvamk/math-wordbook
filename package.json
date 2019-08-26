@@ -21,6 +21,10 @@
     "@angular/platform-browser": "~8.2.3",
     "@angular/platform-browser-dynamic": "~8.2.3",
     "@angular/router": "~8.2.3",
+    "http": "0.0.0",
+    "mathjax": "^2.7.5",
+    "mathjax-node": "^2.1.1",
+    "requirejs": "^2.3.6",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1"
@@ -44,6 +48,9 @@
     "protractor": "~5.4.0",
     "ts-node": "~7.0.0",
     "tslint": "~5.15.0",
-    "typescript": "~3.5.3"
+    "typescript": "~3.5.3",
+    "http": "0.0.0",
+    "mathjax-node": "^2.1.1",
+    "requirejs": "^2.3.6"
   }
 }
