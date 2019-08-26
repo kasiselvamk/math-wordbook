@@ -8,10 +8,7 @@ const windowRef=(<any>window);
 })
 export class MathJaxComponent implements OnInit {
   transfermedcontent = "0 + a = 0 & $$\\frac{a}{0}$$ is not defined."
-  constructor() { 
-    console.log("constructor....")
-
-    this.doRender();
+  constructor() {
   }
 
   ngAfterContentInit(){
