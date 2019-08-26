@@ -9,7 +9,16 @@ const windowRef=(<any>window);
 export class MathJaxComponent implements OnInit {
   transfermedcontent = "0 + a = 0 & $$\\frac{a}{0}$$ is not defined."
   constructor() { 
-    console.log("triggered....")
+    console.log("constructor....")
+
+    this.doRender();
+  }
+
+  ngAfterContentInit(){
+    console.log("ngAfterContentInit....")
+    this.doRender();
+  }
+  doRender() {
     windowRef.MathJax.Hub.Queue(["Typeset",windowRef.MathJax.Hub], 'mathcontent');
   }
 
