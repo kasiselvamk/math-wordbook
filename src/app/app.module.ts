@@ -14,15 +14,19 @@ import {MatButtonModule} from '@angular/material/button';
  import {MatListModule} from '@angular/material/list';
  import {MatRippleModule} from '@angular/material/core';
 import { HyphenPipe } from './hyphen.pipe';
-  
+ import { CommonModule } from '@angular/common';
+import { MathjaxModule } from './math-jax/mathjax.module';
+
 @NgModule({
   declarations: [
     AppComponent,
-    MathToolbarComponent,
+     MathToolbarComponent,
     MathSidenavComponent,
     HyphenPipe,
    ],
   imports: [
+    CommonModule,
+    MathjaxModule,
     BrowserModule,
     AppRoutingModule,
     MatToolbarModule,
@@ -33,8 +37,9 @@ import { HyphenPipe } from './hyphen.pipe';
     OverlayModule,
     MatListModule,
     MatRippleModule,
-     BrowserAnimationsModule
+    BrowserAnimationsModule
   ],
+  exports: [MathjaxModule],
   providers: [],
   bootstrap: [AppComponent]
 })

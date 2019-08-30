@@ -56,7 +56,7 @@ export class AppContent {
       name: "Logarithms",
       sub: [],
     }, {
-      name: "LOCI & Concurrency",
+      name: "LOCI and Concurrency",
       sub: [],
     }, {
       name: "Trignometry",

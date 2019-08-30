@@ -7,7 +7,6 @@ const windowRef=(<any>window);
   styleUrls: ['./math-jax.component.css']
 })
 export class MathJaxComponent implements OnInit {
-  transfermedcontent = "0 + a = 0 & $$\\frac{a}{0}$$ is not defined."
   constructor() {
   }
 

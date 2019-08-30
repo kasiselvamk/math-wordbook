@@ -3,12 +3,13 @@ import { CommonModule } from '@angular/common';
 
 import { Unit1RoutingModule } from './unit1-routing.module';
 import { NumbersComponent } from './numbers/numbers.component';
-import { MathJaxComponent } from 'src/app/math-jax/math-jax.component';
-
+import { MathjaxModule } from 'src/app/math-jax/mathjax.module';
+ 
 @NgModule({
-  declarations: [NumbersComponent,MathJaxComponent],
+  declarations: [NumbersComponent],
   imports: [
     CommonModule,
+    MathjaxModule,
     Unit1RoutingModule
   ]
 })

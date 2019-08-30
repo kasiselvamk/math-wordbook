@@ -3,4 +3,5 @@ clear: both ;
 text-align: left;
  margin: 0em 0;
  padding: 0; 
+ display: inherit !important;
 }

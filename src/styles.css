@@ -23,7 +23,11 @@ body {
     text-align: left !important;
      margin: 0em 0 !important;
      padding: 0 !important; 
+     display: inherit !important;
+
     }
+
     .nowrap {
         white-space: nowrap ;
       }
+ 
