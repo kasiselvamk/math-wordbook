@@ -31,3 +31,6 @@ body {
         white-space: nowrap ;
       }
  
+.jxgbox {
+    border-style:none !important;
+  }

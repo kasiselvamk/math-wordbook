@@ -7,6 +7,7 @@ const windowRef=(<any>window);
   styleUrls: ['./math-jax.component.css']
 })
 export class MathJaxComponent implements OnInit {
+  
   constructor() {
   }
   ngAfterViewInit(){

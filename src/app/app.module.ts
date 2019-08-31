@@ -16,6 +16,8 @@ import {MatButtonModule} from '@angular/material/button';
 import { HyphenPipe } from './hyphen.pipe';
  import { CommonModule } from '@angular/common';
 import { MathjaxModule } from './math-jax/mathjax.module';
+import { JSXGraphComponent } from './jsxgraph/jsxgraph.component';
+import { JsxgraphModule } from './jsxgraph/jsxgraph.module';
 
 @NgModule({
   declarations: [
@@ -27,6 +29,7 @@ import { MathjaxModule } from './math-jax/mathjax.module';
   imports: [
     CommonModule,
     MathjaxModule,
+    JsxgraphModule,
     BrowserModule,
     AppRoutingModule,
     MatToolbarModule,
@@ -39,7 +42,7 @@ import { MathjaxModule } from './math-jax/mathjax.module';
     MatRippleModule,
     BrowserAnimationsModule
   ],
-  exports: [MathjaxModule],
+  exports: [MathjaxModule,JsxgraphModule],
   providers: [],
   bootstrap: [AppComponent]
 })
