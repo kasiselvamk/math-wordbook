@@ -3,8 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { Unit12RoutingModule } from './unit12-routing.module';
 import { BankingComponent } from './banking/banking.component';
-import { MathJaxComponent } from 'src/app/math-jax/math-jax.component';
-import { MathjaxModule } from 'src/app/math-jax/mathjax.module';
+ import { MathjaxModule } from 'src/app/math-jax/mathjax.module';
 
 
 @NgModule({

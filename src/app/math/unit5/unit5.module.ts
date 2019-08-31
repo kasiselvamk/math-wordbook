@@ -3,8 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { Unit5RoutingModule } from './unit5-routing.module';
 import { GeometryComponent } from './geometry/geometry.component';
-import { MathJaxComponent } from 'src/app/math-jax/math-jax.component';
-import { MathjaxModule } from 'src/app/math-jax/mathjax.module';
+ import { MathjaxModule } from 'src/app/math-jax/mathjax.module';
 
 
 @NgModule({

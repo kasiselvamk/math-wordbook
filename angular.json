@@ -24,13 +24,16 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "./node_modules/jsxgraph/distrib/jsxgraph.css"
             ],
             "scripts": [
                    "./node_modules/mathjax/MathJax.js",
                    "./node_modules/mathjax/config/TeX-MML-AM_CHTML.js",
                    "./node_modules/mathjax/jax/output/CommonHTML/jax.js",
-                   "./node_modules//mathjax/jax/output/CommonHTML/fonts/TeX/fontdata.js"
+                   "./node_modules/mathjax/jax/output/CommonHTML/fonts/TeX/fontdata.js",
+                   "./node_modules/jsxgraph/distrib/jsxgraphcore.js"
+
               ]
           },
           "configurations": {

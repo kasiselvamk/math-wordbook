@@ -9,16 +9,12 @@ const windowRef=(<any>window);
 export class MathJaxComponent implements OnInit {
   constructor() {
   }
-
   ngAfterViewInit(){
-    console.log("ngAfterViewInit....")
     this.doRender();
   }
   doRender() {
-    windowRef.MathJax.Hub.Queue(["Typeset",windowRef.MathJax.Hub], 'mathcontent');
-  }
-
+       windowRef.MathJax.Hub.Queue(["Typeset",windowRef.MathJax.Hub], 'mathcontent');
+   }
   ngOnInit() {
   }
-
 }

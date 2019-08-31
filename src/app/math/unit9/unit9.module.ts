@@ -3,8 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { Unit9RoutingModule } from './unit9-routing.module';
 import { SurdsComponent } from './surds/surds.component';
-import { MathJaxComponent } from 'src/app/math-jax/math-jax.component';
-import { MathjaxModule } from 'src/app/math-jax/mathjax.module';
+ import { MathjaxModule } from 'src/app/math-jax/mathjax.module';
 
 
 @NgModule({
