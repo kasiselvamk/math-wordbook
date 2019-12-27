@@ -1,5 +1,4 @@
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
- 
 html {
     font-size: 62.5%;
 }
@@ -17,7 +16,6 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
 .MJXc-display{
     clear: both ;
     text-align: left !important;
@@ -26,11 +24,9 @@ body {
      display: inherit !important;
 
     }
-
     .nowrap {
         white-space: nowrap ;
       }
- 
 .jxgbox {
     border-style:none !important;
   }

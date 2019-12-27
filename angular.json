@@ -32,8 +32,9 @@
                    "./node_modules/mathjax/config/TeX-MML-AM_CHTML.js",
                    "./node_modules/mathjax/jax/output/CommonHTML/jax.js",
                    "./node_modules/mathjax/jax/output/CommonHTML/fonts/TeX/fontdata.js",
+                   "./node_modules/mathjax/jax/output/CommonHTML/autoload/mtable.js",
+                   "./node_modules/mathjax/jax/element/mml/optable/GeneralPunctuation.js",
                    "./node_modules/jsxgraph/distrib/jsxgraphcore.js"
-
               ]
           },
           "configurations": {
