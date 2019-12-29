@@ -9,8 +9,8 @@
           showMathMenu: false,
           menuSettings: { zoom: "Click", zscale: "150%" }
         });
-        window["MathJax"] = MathJax;
-        window["JXG"] = JXG;
+       if(window["MathJax"]) window["MathJax"] = MathJax;
+        if(window["JXG"]) window["JXG"] = JXG;
         console.log("loaded!!!");
       }
     </script>

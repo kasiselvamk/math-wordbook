@@ -25,6 +25,7 @@
     "jsxgraph": "^0.99.7",
     "mathjax": "^2.7.5",
     "mathjax-node": "^2.1.1",
+    "paper": "^0.12.4",
     "requirejs": "^2.3.6",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
