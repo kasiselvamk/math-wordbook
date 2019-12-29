@@ -24,8 +24,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css",
-              "./node_modules/jsxgraph/distrib/jsxgraph.css"
+              "src/styles.css"
             ],
             "scripts": [
                    "./node_modules/mathjax/MathJax.js",
@@ -33,8 +32,7 @@
                    "./node_modules/mathjax/jax/output/CommonHTML/jax.js",
                    "./node_modules/mathjax/jax/output/CommonHTML/fonts/TeX/fontdata.js",
                    "./node_modules/mathjax/jax/output/CommonHTML/autoload/mtable.js",
-                   "./node_modules/mathjax/jax/element/mml/optable/GeneralPunctuation.js",
-                   "./node_modules/jsxgraph/distrib/jsxgraphcore.js"
+                   "./node_modules/mathjax/jax/element/mml/optable/GeneralPunctuation.js"
               ]
           },
           "configurations": {
